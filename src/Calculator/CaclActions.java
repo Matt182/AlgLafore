@@ -29,7 +29,7 @@ public class CaclActions {
                 case "-":
                     a = stack.pop();
                     b = stack.pop();
-                    stack.push(a-b);
+                    stack.push(b-a);
                     break;
                 case "^":
                     a = stack.pop();
